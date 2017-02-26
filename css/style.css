@@ -1,0 +1,115 @@
+html, body{
+	background: url("../img/lp-bg.jpg") center center no-repeat;
+	height: 100%;
+	background-size: cover;
+}
+
+@media(min-width: 768px)
+	and (max-width: 1024px){
+	
+	#logo{
+		margin-right: 35px;
+	}
+
+	#logo img{
+		width: 50%;
+	}
+	#counter .countdown{
+		font-size: 1.4em !important;
+	}
+	#icons .fa{
+		font-size: 2em;
+		padding: 10px 0 0 !important;
+		
+	}
+
+	#signup .btn{
+		margin: 5px 0 0px;
+
+	}
+}
+
+
+@media(min-width:321px)
+	and (max-width: 568px){
+
+		#logo img{
+			padding-top: 10px;
+			width: 20%;
+		}
+	}
+
+
+
+
+#logo img{
+    opacity: 0.65;
+	padding-top: 20px;
+    width: 650px;
+}
+
+#intro p{
+	color: #ffffff;
+	font-family: 'Just Another Hand', cursive;
+	font-size: 2.5em;
+	text-align: center;
+
+
+}
+
+#counter .countdown{
+	text-align: center;
+	color: #ffffff;
+	font-size: 3em;
+	font-family: 'Amatica SC', cursive;
+	margin: -15px 0 0;
+}
+
+#icons{
+
+	text-align: center;
+
+}
+
+#icons .fa{
+	color: #ffffff;
+	font-family: 'FontAwesome' !important;
+	margin: 5px 15px;
+	position: relative;
+	bottom: 0;
+	transition: all 0.2s ease-in-out;
+}
+
+
+#icons .twitter:hover{
+	color: #6cadde;
+	bottom: 5px;
+}
+
+#icons .facebook:hover{
+	color: #3b5998;
+	bottom: 5px;
+}
+
+#icons .google:hover{
+	color: #ea4335;
+	bottom: 5px;
+}
+
+#icons .instagram:hover{
+	color: #517fa6;
+	bottom: 5px;
+}
+
+#signup{
+	text-align: center;
+}
+
+#signup .btn{
+	background-color: rgba(161, 186, 226, 0.5);
+	color: #ffffff;
+}
+
+#signup .btn:hover{
+	background-color: rgba(37, 165, 82, 1);
+}
