@@ -1,19 +1,17 @@
-html, body{
+body{
 	background: url("../img/lp-bg.jpg") center center no-repeat;
 	height: 100%;
 	background-size: cover;
 }
 
+
 @media(min-width: 768px)
 	and (max-width: 1024px){
-	
-	#logo{
-		margin-right: 35px;
-	}
 
-	#logo img{
-		width: 50%;
-	}
+	.container {
+    width: 500px; 
+	}	
+
 	#counter .countdown{
 		font-size: 1.4em !important;
 	}
@@ -33,20 +31,22 @@ html, body{
 @media(min-width:321px)
 	and (max-width: 568px){
 
-		#logo img{
-			padding-top: 10px;
-			width: 20%;
+			
 		}
 	}
-
-
-
+#logo .container{
+	max-width: 50%;
+}
 
 #logo img{
-    opacity: 0.65;
+	width: 650px;
+	margin: 0 auto !important;
+	opacity: 0.65;
 	padding-top: 20px;
-    width: 650px;
-}
+
+} 
+
+
 
 #intro p{
 	color: #ffffff;
