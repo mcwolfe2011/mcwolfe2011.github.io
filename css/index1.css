@@ -1,0 +1,165 @@
+html, body { 
+    background: url("../img/yoga.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.col-md-12 img{
+	width: 600px;
+}
+.col-md-12 .img-responsive{
+	display: block;
+	height: auto;
+	margin: 0 auto;
+	max-width: 100%;
+	opacity: 0.80;
+	padding-top: 40px;
+
+} 
+
+
+
+.col-md-12 p{
+	color: #ffffff;
+	font-family: 'Just Another Hand', cursive;
+	font-size: 2.5em;
+	text-align: center;
+
+
+}
+
+.col-md-12 .countdown{
+	text-align: center;
+	color: #ffffff;
+	font-size: 3em;
+	font-family: 'Amatica SC', cursive;
+	margin: -15px 0 0;
+}
+
+ul .list-inline li{
+	text-align: center;
+}
+
+.col-md-12 ul li a .fa{
+	color: #ffffff;
+	font-family: 'FontAwesome' !important;
+	position: relative;
+	bottom: 0;
+	transition: all 0.2s ease-in-out;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+
+.col-md-12 .twitter:hover{
+	color: #6cadde;
+	bottom: 5px;
+}
+
+.col-md-12 .facebook:hover{
+	color: #3b5998;
+	bottom: 5px;
+}
+
+.col-md-12 .google:hover{
+	color: #ea4335;
+	bottom: 5px;
+}
+
+.col-md-12 .instagram:hover{
+	color: #517fa6;
+	bottom: 5px;
+}
+
+.col-md-12 .btn{
+	background-color: rgba(161, 186, 226, 0.5);
+	color: #ffffff;
+}
+
+.col-md-12 .btn:hover{
+	background-color: rgba(37, 165, 82, 1);
+}
+
+
+
+/* Start Media Queries */
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 768px)  and (max-width : 1200px) {
+
+	.container{
+		width: 95%;
+	}
+
+	.col-md-12 .img-responsive{
+		padding-top: 40px;
+		transition: width .5s; /* animation */
+		width: 60%;
+	}
+
+	.col-md-12 p{
+		font-size: 2.5em;
+	}
+
+	.col-md-12 .countdown{
+		font-size: 2.5em;
+	}
+	.col-md-12 form{
+		padding-bottom: 40px;
+	}
+
+}
+
+/* Small Tablets (portrait and landscape) ----------- */
+@media only screen and (min-width : 569px) and (max-width : 767px) {
+
+	.container{
+		width: 80%;
+	}
+
+	.col-md-12 .img-responsive{
+		padding-top: 0px;
+
+	}
+
+	.col-md-12 p{
+		font-size: 2em;
+	}
+
+	.col-md-12 .countdown{
+		font-size: 2em;
+	}
+	.col-md-12 form{
+		padding-bottom: 40px;
+	}
+
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 240px) and (max-width : 568px) {
+	
+	.container{
+		width: 70%;
+	}
+
+	.col-md-12 .img-responsive{
+		padding-top: 20px;
+
+	}
+
+	.col-md-12 p{
+		font-size: 2em;
+	}
+
+	.col-md-12 .countdown{
+		font-size: 2em;
+	}
+	.col-md-12 form{
+		padding-bottom: 40px;
+	}
+
+}
